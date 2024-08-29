@@ -1,0 +1,80 @@
+/* Selectores de clase */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 10rem;
+    padding: 5rem;
+    background-color:rgb(33, 37, 41);
+}
+
+#header{
+    background-color: rgb(33, 37, 41);
+}
+
+#intro {
+    padding: 2rem;
+    background: #ffebcd; /* Fondo color beige claro */
+}
+
+#exp {
+    padding: 2rem;
+    background: #fafad2; /* Fondo color dorado claro */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold; /* Negrita para los enlaces de navegación */
+}
+
+
+#contacto {
+    padding: 2rem;
+    background: #ffe4e1; /* Fondo color rosa claro */
+}
+
+
+footer {
+    background: linear-gradient(90deg, #ff9a8d, #ff6f61); /* Gradiente inverso */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el pie de página */
+}
+.nombre
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: oblique ;
+color: deeppink;
+}
+.punto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color:hotpink;
+
+}
+.saludo{
+  font-family: fantasy;
+  font-style: normal;
+  color: mediumvioletred;
+}
+
+img {
+   
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las imágenes */
+}
